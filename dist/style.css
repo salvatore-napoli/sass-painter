@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.no-style-list {
+  list-style-type: none;
+}
+
+header {
+  background-color: #101010;
+  padding: 10px 100px 20px;
+}
+header .user-nav {
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+header .user-nav-list {
+  justify-content: flex-end;
+}
+header .user-nav-list-item {
+  padding-right: 25px;
+}
+header .user-nav-list-item a {
+  text-decoration: none;
+  color: #989898;
+}
+header .user-nav-list-item-icon {
+  color: #009CFF;
+  padding-right: 7px;
+}
+header .home-nav {
+  font-size: 14px;
+}
+header .home-nav-list {
+  width: 1020px;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+header .home-nav-list .logo-container {
+  height: 25px;
+}
+header .home-nav-list .logo-container img {
+  height: 100%;
+}
+header .home-nav-list-item .down-icon {
+  color: #878787;
+  font-size: 10px;
+}
