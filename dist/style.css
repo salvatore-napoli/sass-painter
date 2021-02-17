@@ -22,45 +22,45 @@ body {
 
 /* COLORS */
 /* end COLORS */
-nav {
+.upper-nav {
   background-color: #101010;
   padding: 10px 100px 20px;
 }
-nav .user-nav {
+.upper-nav .user-nav {
   font-size: 12px;
   padding-bottom: 25px;
 }
-nav .user-nav-list {
+.upper-nav .user-nav-list {
   justify-content: flex-end;
   align-items: flex-end;
 }
-nav .user-nav-list-item {
+.upper-nav .user-nav-list-item {
   padding-right: 25px;
 }
-nav .user-nav-list-item a {
+.upper-nav .user-nav-list-item a {
   color: #989898;
 }
-nav .user-nav-list-item-icon {
+.upper-nav .user-nav-list-item-icon {
   color: #009CFF;
   padding-right: 7px;
   font-size: 14px;
 }
-nav .home-nav {
+.upper-nav .home-nav {
   font-size: 14px;
 }
-nav .home-nav-list {
+.upper-nav .home-nav-list {
   width: 1020px;
   justify-content: space-between;
   align-items: flex-end;
   color: #FFFFFF;
 }
-nav .home-nav-list .logo-container {
+.upper-nav .home-nav-list .logo-container {
   height: 25px;
 }
-nav .home-nav-list .logo-container img {
+.upper-nav .home-nav-list .logo-container img {
   height: 100%;
 }
-nav .home-nav-list-item .downdrop {
+.upper-nav .home-nav-list-item .downdrop {
   color: #878787;
   font-size: 10px;
 }
@@ -97,6 +97,7 @@ nav .home-nav-list-item .downdrop {
 .jumbotron-contents-center .highlight {
   color: #b936b2;
   font-style: italic;
+  font-size: 25px;
 }
 .jumbotron-contents-center-list .right {
   color: grey;
@@ -150,4 +151,68 @@ nav .home-nav-list-item .downdrop {
   padding: 5px 40px 10px;
   background-color: #009cff;
   color: #FFFFFF;
+}
+
+.main-nav {
+  background-color: #E6E6E6;
+}
+.main-nav .main-list {
+  color: #333;
+  justify-content: center;
+}
+.main-nav .main-list-item {
+  padding: 20px;
+}
+.main-nav .main-list-item-selected {
+  border-bottom: 3px solid #000000;
+  background-color: #F7F7F7;
+  font-weight: bold;
+}
+
+main .software-functions {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/8/intro-top.jpg");
+  background-repeat: repeat-x;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+  text-align: center;
+}
+main .software-functions-content {
+  width: 1000px;
+}
+main .software-functions-content .software-motto {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+main .software-functions-content .software-description {
+  font-size: 18px;
+}
+main .software-functions-content .software-video {
+  margin-top: 50px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/8/intro-bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+main .software-functions-content .functions-decoration {
+  margin-top: 50px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/8/flow-icons-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 600px;
+}
+main .software-functions-content .functions-decoration .functions-container {
+  justify-content: space-between;
+}
+main .software-functions-content .functions-decoration .functions-container .function-image {
+  height: 200px;
+}
+main .software-functions-content .functions-decoration .functions-container .function-image img {
+  height: 100%;
+}
+main .software-functions-content .functions-decoration .functions-container .function-title {
+  font-weight: normal;
+  font-size: 35px;
+  padding-bottom: 15px;
 }
