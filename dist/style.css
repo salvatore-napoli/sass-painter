@@ -16,44 +16,138 @@ body {
   list-style-type: none;
 }
 
-header {
+.no-decoration-text {
+  text-decoration: none;
+}
+
+/* COLORS */
+/* end COLORS */
+nav {
   background-color: #101010;
   padding: 10px 100px 20px;
 }
-header .user-nav {
+nav .user-nav {
   font-size: 12px;
   padding-bottom: 25px;
 }
-header .user-nav-list {
+nav .user-nav-list {
   justify-content: flex-end;
+  align-items: flex-end;
 }
-header .user-nav-list-item {
+nav .user-nav-list-item {
   padding-right: 25px;
 }
-header .user-nav-list-item a {
-  text-decoration: none;
+nav .user-nav-list-item a {
   color: #989898;
 }
-header .user-nav-list-item-icon {
+nav .user-nav-list-item-icon {
   color: #009CFF;
   padding-right: 7px;
-}
-header .home-nav {
   font-size: 14px;
 }
-header .home-nav-list {
+nav .home-nav {
+  font-size: 14px;
+}
+nav .home-nav-list {
   width: 1020px;
   justify-content: space-between;
   align-items: flex-end;
   color: #FFFFFF;
 }
-header .home-nav-list .logo-container {
+nav .home-nav-list .logo-container {
   height: 25px;
 }
-header .home-nav-list .logo-container img {
+nav .home-nav-list .logo-container img {
   height: 100%;
 }
-header .home-nav-list-item .down-icon {
+nav .home-nav-list-item .downdrop {
   color: #878787;
   font-size: 10px;
+}
+
+.jumbotron-contents {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/8/hero-pe-8.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 0px 100px;
+  justify-content: center;
+  height: 400px;
+}
+.jumbotron-contents .bg-description {
+  color: #ddd;
+  text-shadow: 1px 1px #333;
+  font-size: 0.6em;
+  padding-bottom: 20px;
+  align-self: flex-end;
+  margin: 0 100px 0 200px;
+}
+.jumbotron-contents-center {
+  color: #333;
+  align-self: center;
+  width: 400px;
+}
+.jumbotron-contents-center .software-title {
+  font-weight: normal;
+  font-size: 22px;
+}
+.jumbotron-contents-center .title-description {
+  font-weight: normal;
+  font-size: 17px;
+}
+.jumbotron-contents-center .highlight {
+  color: #b936b2;
+  font-style: italic;
+}
+.jumbotron-contents-center-list .right {
+  color: grey;
+  font-size: 10px;
+}
+.jumbotron-contents-center-list-item {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.jumbotron-contents-center-list-item:first-child {
+  padding-top: 20px;
+}
+.jumbotron-contents-center .trial-download {
+  padding: 10px;
+  border: 1px solid #000000;
+  color: inherit;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-top: 20px;
+}
+.jumbotron-contents-center .trial-download .download-invite {
+  font-weight: normal;
+  font-size: 13px;
+}
+.jumbotron-contents-center .trial-download .platform {
+  font-weight: normal;
+  font-size: 10px;
+}
+.jumbotron-contents-right {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 20px;
+  padding: 15px;
+  justify-content: space-between;
+  width: 350px;
+}
+.jumbotron-contents-right .buy-section {
+  margin-top: 30px;
+}
+.jumbotron-contents-right .buy-section .price {
+  color: #FFFFFF;
+  font-size: 23px;
+}
+.jumbotron-contents-right .buy-section .price-download {
+  color: #999;
+  font-weight: normal;
+  font-size: 13px;
+  margin: 10px 0 30px;
+}
+.jumbotron-contents-right .buy-section .buy-button {
+  padding: 5px 40px 10px;
+  background-color: #009cff;
+  color: #FFFFFF;
 }
